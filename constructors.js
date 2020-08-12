@@ -66,6 +66,17 @@ const bob = new Employee('Bob', 'bob@gmail.com', '01-02-98')
   
   // Code here
   
+  function Car ( make, model, year) {
+    this.make = make;
+    this.model = model;
+    this.year = year;
+    this.move = 0,
+
+    this.moveCar = function () {
+      return this.move += 10;
+    }
+  }
+
   ////////// PROBLEM 4 //////////
   
   /*
