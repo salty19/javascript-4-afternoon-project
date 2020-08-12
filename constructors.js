@@ -115,13 +115,18 @@ const bob = new Employee('Bob', 'bob@gmail.com', '01-02-98')
     this.name = name;
     this.age = age;
     this.email = email;
-    this.savedPosts = {
-         this.id = id;
-         this.title = title;
-        this.rating = rating;
-    }
+    this.savedPosts = savedPosts 
   }
-  User.prototype.addSavedPost = 
+
+  User.prototype.addSavedPost = (id, title, rating) => {
+    const newPosts = {
+      id: id,
+      title: title,
+      rating: rating,
+    }
+    this.savedPosts.push(newPosts)
+    
+  }
 
 
   ////////// PROBLEM 6 //////////
