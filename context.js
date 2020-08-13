@@ -20,11 +20,15 @@
 //Code Here
 
 const user = {
-  username:
-  email:
-  getUsername = function () {
+  username: '',
+  email: '',
+  getUsername: function(){
     return (this.username)
   }
+
+  //   function getUsername () {
+  //   return (this.user)
+  // }
 }
 
 ////////// PROBLEM 2 //////////
