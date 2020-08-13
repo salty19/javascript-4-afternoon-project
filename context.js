@@ -68,7 +68,9 @@ let who = {
 }
 
 //Code Here
+
 const whoSaysHi = sayHi.bind(who)
+
 ////////// PROBLEM 4 //////////
 
 /*
@@ -80,7 +82,7 @@ function whatIsThis() {
 }
 
 // uncomment the line below and tell us what the context of "this" is for whatIsThis()
-//let context1 = ???
+let context1 = this.product;
 
 let product = {
   name: 'snake plant',
