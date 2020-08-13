@@ -94,7 +94,7 @@ let product = {
 let func = whatIsThis.bind(product)
 
 // uncomment the line below and tell us what the context of "this" is when we invoke func
-//let context2 = ???
+let context2 = func()
 
 let vacation = {
   location: 'Hawaii',
