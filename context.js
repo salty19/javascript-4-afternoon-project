@@ -50,7 +50,7 @@ function Animal(name, species, food) {
 }
 
 //Code Here
-
+const animal1 = new Animal();
 ////////// PROBLEM 3 //////////
 
 /*
@@ -68,7 +68,7 @@ let who = {
 }
 
 //Code Here
-
+const whoSaysHi = sayHi.bind(who)
 ////////// PROBLEM 4 //////////
 
 /*
