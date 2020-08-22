@@ -147,6 +147,6 @@ const bob = new Employee('Bob', 'bob@gmail.com', '01-02-98')
   
   // Code here
   User.prototype.changePostRating = function(id, newRating) {
-    this.savedPosts = this.savedPosts
+    this.savedPosts = this.savedPosts.map(e => e.id === id ? e.rating = newRating : null)
   }
-  .splice(e => e.id === id, 1, newRating)
+  // .splice(e => e.id === id, 1, newRating)
